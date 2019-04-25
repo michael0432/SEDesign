@@ -64,7 +64,7 @@ public class Main {
                     System.out.print("No this condiment!!\n");
                 }
             }
-            DecimalFormat format = new DecimalFormat("0.###############");
+            DecimalFormat format = new DecimalFormat("0.##");
             System.out.print("price: ");
             System.out.println(format.format(b.cost()));
             
